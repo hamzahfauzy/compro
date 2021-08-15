@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+nav.navbar {
+  background-color: transparent;
+  z-index: 1;
+}
+/*agar slide naik keatas / full tingginya */
+div.bd-example {
+margin-top : -106px;
+}
+div.bd-example .carousel-inner, div.bd-example .carousel-item {
+  height: 100vh;
+}
+/*untuk mengubah warna link pada navbar*/
+li.nav-item a.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+/* event hover pada navbar */
+li.nav-item:hover a.nav-link {
+  color: #b7a03c !important;
+}
+.bottom li.nav-item:hover a.nav-link {
+  color: #FFF !important;
+  text-decoration: underline;
+}
+/* deskripsi */
+.deskripsi-web{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  box-shadow: 0px 0px 5px 0px silver;
+}
+.deskripsi-text{
+  line-height: 2;
+}
+.deskripsi-judul{
+  margin-bottom: 30px;
+}
+/* potofolio */
+.portofolio, .bottom{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+ background-color: #b7a03c;
+ color: white;
+}
+.portofolio.page {
+  background-color: white;
+  color: black;
+}
+.bottom {
+  padding-top:50px;
+  margin-bottom: 0px;
+}
+.btn-porto-1, .btn-porto-2:hover{
+  color:#b7a03c;
+  background-color: white;
+  border:1px solid #b7a03c;
+  font-weight: bold ;
+}
+ .btn-porto-1:hover, .btn-porto-2{
+  color:#FFF;
+  background-color:#b7a03c;
+  border:1px solid #FFF;
+  font-weight: bold ;
+}
+
+/*testimonial*/
+.testimonial-img{
+  height: 200px;
+  object-fit: cover;
+
+}
